@@ -13,4 +13,5 @@ ENV PATH /opt/anaconda3/bin:$PATH
 
 RUN pip install --upgrade pip \
 	blitz-bayesian-pytorch \
-	pandas_datareader
+	pandas_datareader \
+	pyro-ppl
