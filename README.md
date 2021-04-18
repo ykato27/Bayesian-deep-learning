@@ -1,5 +1,5 @@
-# Bayesian-deep-learning
-* 単目的最適化（メタヒューリスティック）のプログラム
+# Time-Series-deep-learning
+* 時系列予測（ディープラーニング）のプログラム
 
 ## リポジトリ構成
 ```
@@ -13,12 +13,12 @@
 
 ## 環境構築
 
-* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Single-Optimization）
+* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Time-Series-deep-learning）
 ```
-cd Desktop/Single-Optimization
+cd Desktop/Time-Series-deep-learning
 ```
 
-* Dockerによる環境構築（フォルダをマウント：Desktop/Single-Optimization）
+* Dockerによる環境構築（フォルダをマウント：Desktop/Time-Series-deep-learning）
 ```
 docker-compose up --build
 ```
