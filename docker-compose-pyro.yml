@@ -1,11 +1,11 @@
 version: "3"
 services:
-  pytorch-forecasting:
-    container_name: pytorch-forecasting
-    image: pytorch-forecasting:1.0
+  pyro:
+    container_name: pyro
+    image: pyro:1.0
     build:
       context: ./docker
-      dockerfile: ./PyTorch-Forecasting/Dockerfile
+      dockerfile: ./Pyro/Dockerfile
     volumes:
       - ./:/work
     working_dir: /work
